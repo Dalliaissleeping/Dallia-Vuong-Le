@@ -1,93 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dallia Vuong Le's final assessment</title>
-</head>
-<body>
+    <!-- STEP 1: Change the title tag to be Your Name -->
+    <title>Dallia Vuong Le</title>
 
-    <h1>Witchers, from the Kingdom of Cintra</h1>
+    <!-- STEP 2: INSERT THE BOOTSTRAP 4.6 links here or the Bootstrap 5 CSS link here in the head and the 
+         JavaScript Bundle link right before the closing body tag like it says here 
+         https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </head>
+  <body>
 
-    <p>A Witcher is someone who has trained mentally and physically for years, learned alchemy, learned monster hunting, and finally mutated through a series of inhumane experiments that make them powerful magic users and assassins.</p>
-    <p>Although they kill monsters, they are veiwed as bad since they are "mutants" that have the ability to easily kill a person</p>
-    <img src="https://img.cinemablend.com/filter:scale/quill/e/f/b/d/3/d/efbd3daba4a7ca570e1a66c72293e8b82ae1c473.png?mw=600" alt="Sorry this image doesnt exist">
+    <nav class="navbar navbar-dark bg-dark">
+    <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
+        Also, create a link in the navbar TO the HTML file that you made in the HTML assessment -->
 
-    <h2>How do you make a Witcher?</h2>
-      
-    <ol>
-        <li>An individual must be recruited</li>
-         <ul>
-             <li>You have to be a boy, perferablly orphaned</li>
-         </ul>
-    
-         <li>Be entered into the "Trial of Grasses", which enable them to have supernaturak powers</li>
-          <ul>
-              <li>Where boys must consume corn lily, nightshade, speargrass, wildrye, wolfspan and that weaken their immune system</li>
-          </ul>
+    </nav>
 
-          <li>"Trial of Dreams"</li>
-          <ul>
-             <li>A series of psychedelic visions induced so they have night vision</li>
-          </ul>
+    <div>
+      <!-- Add a class with custom styling to this div -->
+    </div>
 
-          
-        <li>"Trial of Mountains"</li>
-        <ul>
-            <li>Young boys have to survive in the mountains with their learned knowledge </li>
-        </ul>
+    <div>
+      <!-- Add the same class as before to apply the same styling to this div.
+           ALSO add an id to this div to apply something unique. -->
+    </div>
 
-    </ol>
+    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
 
+    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+         and a header row and add at least three more rows. Feel free to change the text.-->
 
-    <h3>What to find out more about their painful mutations? Click <a href="https://witcher.fandom.com/wiki/Mutations_(Blood_and_Wine)"> here</a></h3>
+    <table>
+      <th>
+        <td>A Person's Name</td><td>Their Fav Animal that starts with the first letter of their first name</td><td># of toes that animal has</td>
+      </th>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+    </table>
 
-
-    <!--I am putting another picture to show what mutations look like-->
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQO0Htp_vE5xz1VVB_fmLpy_6c6GK2fs4BKVseQgWH3JntSf7B-8t9cTcIl1wEmgdOkdI&usqp=CAU" alt="Sorry this picture doesn't exist">
-
-    <p>Now that you read everything there is to know about Witchers, here is a quiz to see if you are meant to be one?</p>
-    <p>Are you a child (perferablly orphaned)?</p>
-
-    <form>
-    <label for="yes">Yes:</label>
-    <input type="radio" id="yes" name="witcher1" value="yes">
-
-    <label for="no">No:</label>
-    <input type="radio" id="no" name="witcher1" value="no">
-
-    <p>Could you handle drinking herbs that cause you pain (hallucanations, vomit, unable to stand up, etc) for seven days?</p>
-    <label for="yes">Yes:</label>
-    <input type="radio" id="yes" name="witcher2" value="yes">
-
-    <label for="no">No:</label>
-    <input type="radio" id="no" name="witcher2" value="no">
-
-    <p>Could you handle killing monsters for the rest of your life?</p>
-    <label for="yes">Yes:</label>
-    <input type="radio" id="yes" name="witcher3" value="yes">
-
-    <label for="no">No:</label>
-    <input type="radio" id="no" name="witcher3" value="no">
-
-    <p>Did you say yes or no to all the questions?</p>
-
-    <select name="witchy">
-        <option value="yes">Yup, I'm now a Witcher</option>
-        <option value="no">Nope, I'm not devoting my life do that</option>
-    </select>
-
-    <label for="firstnametag">Terrific! You're a Witcher, put down your name so we remember you:</label>
-    <input id = "firstnametag" type="name" name="first name" placeholder="first name Here">
-
-    <br>
-    <br>
-
-    <input type="Submit" value="Click to submit your quiz">
-    
-    </form>
-
-
-</body>
+  </body>
 </html>
