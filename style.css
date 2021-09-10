@@ -1,7 +1,8 @@
-h1{
+.firstHead{
     font-family: "serif";
 }
-p{
+.myclass{
     font-family: "cursive";
     font-weight: bold;
+    color: darkblue;   
 }
