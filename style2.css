@@ -1,17 +1,6 @@
 
-.firstdiv{
-    background-color: deeppink;
-    
-}
-.firstHead{
-    font-family: "serif";
-}
-.myclass{
-    font-family: "cursive";
-    font-weight: bold;
-    color: darkblue;   
-}
-#firstId{
-    background-color: darkviolet;
-    font-size: 20px;
+#p1{
+    border-width: 20p;
+    border-color: blueviolet;
+    color: crimson;
 }
