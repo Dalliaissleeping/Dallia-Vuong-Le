@@ -19,7 +19,44 @@ page that contains all the code you need for a new page.-->
    Quiz about me
   </div>
 
-  <form action=""></form>
+  <form>
+    <p>What is a class I am taking during my senior year?</p>
+    <label for="yes">Yes:</label>
+    <input type="radio" id="yes" name="me1" value="yes">
+
+    <label for="no">No:</label>
+    <input type="radio" id="no" name="me1" value="no">
+
+    <p>What is a hobby that I mentioned on the carousel slide?</p>
+    <label for="yes">Yes:</label>
+    <input type="radio" id="yes" name="ques2" value="yes">
+
+    <label for="no">No:</label>
+    <input type="radio" id="no" name="ques2" value="no">
+
+    <p>Could you handle killing monsters for the rest of your life?</p>
+    <label for="yes">Yes:</label>
+    <input type="radio" id="yes" name="ques3" value="yes">
+
+    <label for="no">No:</label>
+    <input type="radio" id="no" name="ques3" value="no">
+
+    <p>Did you say yes or no to all the questions?</p>
+
+    <select name="witchy">
+        <option value="yes">Yup, I'm now a Witcher</option>
+        <option value="no">Nope, I'm not devoting my life do that</option>
+    </select>
+
+    <label for="firstnametag">Terrific! You're a Witcher, put down your name so we remember you:</label>
+    <input id = "firstnametag" type="name" name="first name" placeholder="first name Here">
+
+    <br>
+    <br>
+
+    <input type="Submit" value="Click to submit your quiz">
+    
+    </form>
   <!--Bootstrap and other JS scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
