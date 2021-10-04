@@ -10,3 +10,14 @@
     font-size: 27px;
     color:darkslateblue;
 }
+
+.quiz{
+    color: darkgreen;
+    background-color: plum;
+    text-align: center;
+}
+
+.quizz{
+    background-color: lightsteelblue;
+    text-align: center;
+}
