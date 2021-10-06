@@ -1,4 +1,4 @@
-
+/*Home page*/
 #p1{
     font-family: fantasy;
     font-size: 27px;
@@ -11,6 +11,7 @@
     color:darkslateblue;
 }
 
+/*Quiz page*/
 .quiz{
     color: darkgreen;
     background-color: plum;
@@ -20,4 +21,23 @@
 .quizz{
     background-color: lightsteelblue;
     text-align: center;
+}
+
+
+/*Hobby page*/
+.hobbies{
+    color: darkblue;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.divsinhobs{
+    color:rosybrown;
+    text-decoration-line: underline;
+    
+}
+
+p{
+    font-size: 20px;
+    
 }
