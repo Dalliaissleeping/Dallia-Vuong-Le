@@ -62,10 +62,33 @@ p{
 /*Books I read and why*/
 .booktitle{
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(69, 69, 241);
 }
-.book2{
+/*Image*/
+.bookdiv1{
     text-align: center;
 }
+
+.book2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(69, 69, 241);
+    
+}
+    
+
 #bookpar{
     font-family: cursive;
+    font-weight: bold;
+}
+
+.bookdiv2{
+    text-align: center;
+}
+.bookdiv3{
+    text-align: center;
+}
+.background{
+    background-color: cadetblue;
 }
