@@ -10,6 +10,9 @@
     font-size: 27px;
     color:darkslateblue;
 }
+.quizbutton{
+    text-align: right;
+}
 
 /*Quiz page*/
 .quiz{
