@@ -58,3 +58,14 @@ p{
     background-color: red;
     font-size: 30px;
 }
+
+/*Books I read and why*/
+.booktitle{
+    text-align: center;
+}
+.book2{
+    text-align: center;
+}
+#bookpar{
+    font-family: cursive;
+}
