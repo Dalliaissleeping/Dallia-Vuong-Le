@@ -17,41 +17,21 @@ page that contains all the code you need for a new page.-->
   <div data-include="nav"></div>
   <!--Whole page container div-->
   <div class="container-fluid px5 testbackground">
-  <h1 class="quiz">Test about me</h1>
+  <h1 class="quiz">Questions for you</h1>
 
   <form class="quizz">
     <!--First question-->
-    <p>What is the class I am taking during my senior year?</p>
-    <label for="class1">Chemistry: </label>
-    <input type="radio" id="class1" name="me1" value="class1">
-
-    <label for="class2">Senior Capstone: </label>
-    <input type="radio" id="class2" name="me1" value="class2">
-
-    <label for="class3">Statistics: </label>
-    <input type="radio" id="class3" name="me1" value="class3">
+    <p>Do you think I make a great fit for your university?</p>
+    <textarea name="firsttext" id="box1" cols="80" rows="2" placeholder="Type yes or no, and why"></textarea>
+    
 
     <!--Second question-->
-    <p>What is a hobby that I mentioned on the carousel slide?</p>
-    <label for="hob1">Traveling:</label>
-    <input type="radio" id="hob1" name="ques2" value="hob1">
-
-    <label for="hob2">Collecting rocks:</label>
-    <input type="radio" id="hob2" name="ques2" value="hob2">
-
-    <label for="hob3">Hiking:  </label>
-    <input type="radio" id="hob3" name="ques2" value="hob3">
+    <p>What on my website impressed you?</p>
+    <textarea name="secondtext" id="box2" cols="80" rows="2" placeholder="Type what interested you and why"></textarea>
 
     <!--Thrid Question-->
-    <p>Which one is my favorite show?</p>
-    <label for="sh1">Witcher:</label>
-    <input type="radio" id="sh1" name="ques3" value="sh1">
-
-    <label for="sh2">Vinland Saga:</label>
-    <input type="radio" id="sh2" name="ques3" value="sh2">
-
-    <label for="sh3">Squid Game: </label>
-    <input type="radio" id="sh3" name="ques3" value="sh3">
+    <p>What would you like to know more about me?</p>
+    <textarea name="thirdtext" id="box3" cols="80" rows="2" placeholder="Type waht you would like to know more about"></textarea>
 
     <p>Do you think you got all the question right?</p>
 
@@ -60,15 +40,15 @@ page that contains all the code you need for a new page.-->
         <option value="no">Nope</option>
     </select>
 
-    <label for="firstnametag">Terrific! You finished the test, put down your name so we remember you:</label>
-    <input id = "firstnametag" type="name" name="first name" placeholder="first name Here">
+    <label for="firstnametag">Terrific! You finished answering all the questions, put down your name so we remember you:</label>
+    <input id = "firstnametag" type="name" name="first name" placeholder="first name here">
 
     <br>
     <br>
 
     <!--Results button-->
       <a href="results.html" type="button" class="btn btn-primary btn-lg">
-        Click here to receive the results
+        Click here to receive my feedback
       </a>
     
     </form>
