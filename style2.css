@@ -58,21 +58,9 @@ p{
     background-color: rgba(20, 139, 168, 0.267);
 
 }
-.results1{
-    color: green;
-}
-#results1{
-    color: green;
-    font-size: 30px;
-}
 
-.results2{
-    color: red;
-}
-#results2{
-    color:red;
-    font-size: 30px;
-}
+
+
 
 /*Books I read and why*/
 .booktitle{
