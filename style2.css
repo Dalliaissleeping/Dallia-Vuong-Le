@@ -22,14 +22,17 @@
 }
 
 /*Quiz page*/
+.testbackground{
+    background-color: rosybrown;
+}
 .quiz{
     color: darkgreen;
-    background-color: plum;
+    
     text-align: center;
 }
 
 .quizz{
-    background-color: lightsteelblue;
+  
     text-align: center;
 }
 
@@ -106,3 +109,4 @@ p{
 .bookpagebackground{
     background-color: cadetblue;
 }
+
