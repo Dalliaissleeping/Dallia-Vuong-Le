@@ -1,4 +1,8 @@
 /*Home page*/
+.introtitle{
+    color: darkslateblue;
+    text-decoration-line: underline;
+}
 #p1{
     font-family: fantasy;
     font-size: 27px;
