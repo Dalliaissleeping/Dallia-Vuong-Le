@@ -58,6 +58,18 @@ p{
     background-color: rgba(20, 139, 168, 0.267);
 
 }
+.results1{
+    color: blue;
+}
+#results1{
+    color: blue;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 
 
