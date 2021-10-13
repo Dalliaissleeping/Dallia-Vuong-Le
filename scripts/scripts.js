@@ -5,6 +5,6 @@ $(function () {
       $(this).load(file)
     })
 
-    document.title = "Dallia's site"
+    document.title = "Milestone website"
 
   })
